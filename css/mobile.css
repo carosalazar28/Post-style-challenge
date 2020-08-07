@@ -1,0 +1,48 @@
+@media only screen and (max-width: 425px) {
+    .post {
+        grid-template: 300px 300px / 300px;
+        grid-template-areas: 
+            "left"
+            "rigth";
+    }
+
+    .rigth .description-title {
+        margin-top: 15px;
+    }
+
+    .rigth .description-title h1 {
+        font-size: 16px;
+    }
+
+    .rigth .description-text p {
+        font-size: 13px;
+    }
+
+    .rigth .informationFromAuthorPost {
+        margin-top: 20px;
+        width: 260px;
+    }
+
+    .rigth .informationFromAuthorPost .share {
+        left: 50px;
+        top: 15px;
+        z-index: 2;
+    }
+
+    .rigth .informationFromAuthorPost .socialMedia {
+        right: 20px;
+        bottom: 24px;
+        border-radius: unset;
+        box-shadow: unset;
+        padding: 22px;
+        width: 260px;
+        justify-content: flex-start;
+    }
+
+    .rigth .informationFromAuthorPost .socialMedia .box {
+        display: none;
+    }
+
+
+
+}
