@@ -43,6 +43,7 @@ h1, h2, p, h3 {
 
 .rigth .description-title, .rigth .description-text {
     height: fit-content;
+    margin-top: 15px;
 }
 
 .rigth .description-title h1 {
@@ -56,6 +57,9 @@ h1, h2, p, h3 {
     line-height: 1.4;
 }
 
+.rigth .informationFromAuthorPost {
+    margin-top: 25px;
+}
 
 .rigth .informationFromAuthorPost .information-photo {
     display: inline-block;
