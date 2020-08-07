@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styleDesktop.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <title>Post Article</title>
 </head>
 <body>
@@ -35,18 +36,19 @@
                 <div class="information-data">
                     <h3>28 Jun 2020</h3>
                 </div>
-                <div class="share">
-                    <a href=""><img src="./images/icon-share.svg" alt="icon for share this post"></a>
+                <div class="share" >
+                    <a href="#socialMediaActive" id="share-botton"><img src="./images/icon-share.svg" alt="icon for share this post"></a>
                 </div>
-                <div class="socialMedia">
+                <div class="socialMedia" class="is-active" id="socialMediaActive">
                     <p>SHARE</p>
                     <a href=""><img src="./images/icon-facebook.svg" alt="Link para generar vinculo con facebook"></a>
                     <a href=""><img src="./images/icon-twitter.svg" alt="Link para generar vinculo con twitter"></a>
                     <a href=""><img src="./images/icon-pinterest.svg" alt="Link para generar vinculo con pinterest"></a>
-                    <div class="box"></div>
+                    <div class="box" ></div>
                 </div>
             </div>
         </div>
     </article>
+    <script src="./js/active.js"></script>
 </body>
 </html>
