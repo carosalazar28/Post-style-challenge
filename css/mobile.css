@@ -40,9 +40,6 @@
     }
 
     .rigth .informationFromAuthorPost .socialMedia .box {
-        display: none;
+        opacity: 0;
     }
-
-
-
 }
